@@ -13,6 +13,8 @@ Pip is the package manager for Python.  You can install the remaining packages r
 
 - pip install flask flask-sqlalchemy flask-login
 
+(NOTE: If you are using a Mac you may need to use the command pip3 instead of pip to ensure you are installing packages for python3)
+
 You should have at least the following versions installed: 
 - Python             3.9.6
 - Flask              2.2.3
@@ -48,6 +50,8 @@ You should see that there are no users in the database.
 You can run the website by typing:
 
 - python run.py
+
+(If you are using a Mac you may need to type python3 run.py).
 
 You can now browse to the url http://localhost:8001/ and you should see the home page for the website.
 
